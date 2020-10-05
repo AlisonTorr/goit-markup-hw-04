@@ -187,8 +187,15 @@ a:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.icon-container {
+    background: #F5F4FA;
+    margin-bottom: 30px;
+}
+
 .icon {
-    display: block;
+    width: 70px;
+    height: 70px;
+    padding: 25px 100px;
 }
 
 .why-us-list {
