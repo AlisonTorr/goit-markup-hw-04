@@ -195,6 +195,7 @@ a:focus {
 .icon {
     width: 70px;
     height: 70px;
+    display: block;
     padding: 25px 100px;
 }
 
