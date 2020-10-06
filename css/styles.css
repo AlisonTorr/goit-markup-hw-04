@@ -151,6 +151,7 @@ a:focus {
 }
 
 .connect-us-icon {
+    display: block;
     margin-right: 10px;
     fill: var(--icon-static-color);
 }
@@ -202,9 +203,10 @@ a:focus {
 }
 
 .icon-container {
-    background: #F5F4FA;
     margin-bottom: 30px;
     padding: 25px 100px;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 
 .icon {
