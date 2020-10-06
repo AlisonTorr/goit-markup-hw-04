@@ -149,11 +149,9 @@ a:focus {
 .auth-nav > .item {
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
 }
 
 .connect-us-icon {
-    display: block;
     margin-right: 10px;
     fill: var(--icon-static-color);
 }
