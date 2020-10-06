@@ -153,7 +153,7 @@ a:focus {
 
 .connect-us-icon {
     margin-right: 10px;
-    fill: var(--icon-static-color);
+    fill: var(--secondary-text-color);
 }
 .connect-us-icon:hover,
 .connect-us-icon:focus {
