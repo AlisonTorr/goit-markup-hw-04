@@ -145,6 +145,16 @@ a:focus {
     color: var(--accent-color);
 }
 
+.envelope-icon {
+    width: 12px;
+    height: 16px;
+}
+
+.smartphone-icon {
+    width: 10px;
+    height: 16px;
+}
+
 .hero-container {
     height: 600px;
     max-width: 1600px;
@@ -190,13 +200,13 @@ a:focus {
 .icon-container {
     background: #F5F4FA;
     margin-bottom: 30px;
+    padding: 25px 100px;
 }
 
 .icon {
     width: 70px;
     height: 70px;
     display: block;
-    padding: 25px 100px;
 }
 
 .why-us-list {
@@ -220,6 +230,7 @@ a:focus {
 
 .why-us-title {
     margin: 0;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
@@ -229,6 +240,7 @@ a:focus {
 }
 
 .why-us-description {
+    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -273,22 +285,22 @@ a:focus {
 }
 
 .team-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    min-width: 1200px;
+    max-width: 1600px;
+    padding: 94px 15px;
     background-color: var(--third-background-color);
 }
 
 .team-list {
     width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .team-item {
+    padding-bottom: 30px;
     background-color: var(--primary-background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -313,12 +325,78 @@ a:focus {
 
 .team-member-position {
     margin: 0px;
-    padding-bottom: 30px;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+}
+
+.social-links-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link-item {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: var(--primary-background-color);
+}
+.social-link-item:hover,
+.social-link-item:focus {
+    background-color: var(--accent-color);
+}
+
+.social-link-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-link-icon {
+    width: 20px;
+    height: 20px;
+}
+.social-link-icon:hover,
+.social-link-icon:focus {
+    fill: var(--white-text-color);
+}
+
+.clients-section {
+    width: 1200px;
+    padding: 94px 15px;
+    margin: 0 auto;
+}
+
+.client-list {
+    display: flex;
+    justify-content: center;
+}
+
+.client-item {
+    width: 170px;
+    height: 90px;
+    display: flex;
+    
+}
+.client-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.client-link {
+    width: inherit;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-link:hover,
+.client-link:focus {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .google-maps {
@@ -336,11 +414,17 @@ a:focus {
 
 .footer-container {
     width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
+}
+
+.footer-container-left {
+    margin-right: 70px;
 }
 
 .address-item:not(:last-child) {
@@ -360,11 +444,50 @@ a:focus {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.filter-container {
-    padding: 0px;
-    padding-bottom: 16px;
+.footer-connect {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.143;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.social-link-item-footer:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-link-footer {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+}
+.social-link-footer:hover,
+.social-link-footer:focus {
+    background-color: var(--accent-color);
+}
+
+.social-link-icon-footer {
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    
+}
+
+.projects-section {
+    width: 1200px;
+    margin: 0 auto;
     padding-top: 94px;
-    margin-bottom: 34px;
+    padding-bottom: 94px;
+}
+
+.filter-list {
+    padding: 0px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
@@ -398,7 +521,6 @@ a:focus {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    margin-bottom: 94px;
 }
 
 .projects-list {
