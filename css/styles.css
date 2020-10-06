@@ -147,7 +147,8 @@ a:focus {
 }
 
 .auth-nav > .item {
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .connect-us-icon {
