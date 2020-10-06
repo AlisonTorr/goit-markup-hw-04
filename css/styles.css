@@ -291,9 +291,14 @@ a:focus {
     display: block;
 }
 
-.team-container {
-    padding: 94px 15px;
+.team-section {
     background-color: var(--third-background-color);
+}
+
+.team-container {
+    width: 1200px;
+    padding: 94px 15px;
+    margin: 0 auto;
 }
 
 .team-list {
