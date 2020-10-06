@@ -27,6 +27,7 @@ body {
     --secondary-background-color: #2F303A;
     --third-background-color: #F5F4FA;
     --studio-word-color: #000000;
+    --icon-static-color: #afb1b8;
 }
 
 img {
@@ -146,9 +147,7 @@ a:focus {
 }
 
 .auth-nav > .item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .connect-us-icon {
@@ -359,7 +358,7 @@ a:focus {
 .social-link-icon {
     width: 20px;
     height: 20px;
-    fill: #afb1b8;
+    fill: var(--icon-static-color);
 }
 .social-link-icon:hover,
 .social-link-icon:focus {
@@ -389,7 +388,7 @@ a:focus {
 
 .client-link {
     width: inherit;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--icon-static-color);
     border-radius: 4px;
     display: inline-flex;
     justify-content: center;
@@ -399,6 +398,14 @@ a:focus {
 .client-link:hover,
 .client-link:focus {
     border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+}
+
+.client-icon {
+    fill: var(--icon-static-color);
+}
+.client-icon:hover,
+.client-icon:focus {
     fill: var(--accent-color);
 }
 
