@@ -145,14 +145,14 @@ a:focus {
     color: var(--accent-color);
 }
 
-.envelope-icon {
-    width: 12px;
-    height: 16px;
+.auth-nav > .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.smartphone-icon {
-    width: 10px;
-    height: 16px;
+.connect-us-icon {
+    margin-right: 10px;
 }
 
 .hero-container {
