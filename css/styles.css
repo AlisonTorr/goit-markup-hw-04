@@ -152,6 +152,11 @@ a:focus {
 
 .connect-us-icon {
     margin-right: 10px;
+    fill: var(--icon-static-color);
+}
+.connect-us-icon:hover,
+.connect-us-icon:focus {
+    fill: var(--accent-color);
 }
 
 .hero-container {
